@@ -54,5 +54,7 @@ Background music.
 
 ### Contributions
 Front-end and server: Shu Yi & Yijia
+
 Mathematical function implementations: Zhuoer
+
 Database-related functions: Ethan
