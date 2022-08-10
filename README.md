@@ -51,3 +51,8 @@ Flaticon: graphics for ingredients and beverages.
 
 Background music.
 <https://www.youtube.com/watch?v=ieL3VO4VWxE>
+
+### Contributions
+Front-end and server: Shu Yi & Yijia
+Mathematical function implementations: Zhuoer
+Database-related functions: Ethan

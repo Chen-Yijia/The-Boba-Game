@@ -20,7 +20,6 @@
   height: 100px;
   width: 220px;
   z-index: 999;
-  /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
 }
 
 .quitgame-btn img {
@@ -28,30 +27,24 @@
   width: 100%;
 }
 
-.sweet-alert.quit-alert p{
+.sweet-alert.quit-alert p {
   font-family: "Yusei Magic";
   color: black;
 }
 
-.sweet-alert.restart-alert p{
+.sweet-alert.restart-alert p {
   font-family: "Yusei Magic";
   color: black;
 }
 
 .restart-btn {
-  /*position: absolute;*/
   background-color: transparent;
   background-repeat: no-repeat;
   margin-left: 10px;
-  /*margin-right: auto;*/
   border: none;
   padding: 0px;
   height: 100px;
   width: 220px;
-  /*left: 980px;
-  top: 570px;
-  z-index: 999;
-  background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
 }
 
 .restart-btn img {
@@ -167,7 +160,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1px;
-    /* background-color: blue; */
+  /* background-color: blue; */
   height: 100px;
   width: 480px;
   grid-auto-columns: auto;
@@ -334,7 +327,7 @@
   background-size: 100% 100%;
 }
 
-.map-start-btn{
+.map-start-btn {
   position: absolute;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -348,7 +341,7 @@
   /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
 }
 
-.map-continue-btn{
+.map-continue-btn {
   position: absolute;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -377,29 +370,29 @@
 }
 
 /*help page*/
-.prev-next-btns{
+.prev-next-btns {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.prev-next-btns #prevBtn{
+.prev-next-btns #prevBtn {
   margin-right: 1300px;
 }
 
-.pic-align{
+.pic-align {
   display: flex;
-  padding-bottom:20px !important;
+  padding-bottom: 20px !important;
 }
 
-.member-names{
-  margin-top:10px !important;
-  margin-bottom:10px !important;
+.member-names {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
-.help-page-element{
+.help-page-element {
   background-color: #FFF89A !important;
-  border-radius: 0px 0px 15px 15px!important;
+  border-radius: 0px 0px 15px 15px !important;
   height: 650px !important;
   padding-left: 30px;
   padding-right: 30px;
@@ -412,9 +405,9 @@
   font-size: 20px !important;
 }
 
-.help-page-element-extra{
+.help-page-element-extra {
   background-color: #FFF89A !important;
-  border-radius: 0px 0px 15px 15px!important;
+  border-radius: 0px 0px 15px 15px !important;
   height: 2300px !important;
   padding-left: 30px;
   padding-right: 30px;
@@ -422,9 +415,9 @@
   text-align: justify
 }
 
-.help-page-element-extra1{
+.help-page-element-extra1 {
   background-color: #FFF89A !important;
-  border-radius: 0px 0px 15px 15px!important;
+  border-radius: 0px 0px 15px 15px !important;
   height: 1000px !important;
   padding-left: 30px;
   padding-right: 30px;
@@ -504,9 +497,9 @@
 
 .page3-content {
   .page3-content {
-  padding-top: 75px;
-  padding-bottom: 20px;
-}
+    padding-top: 75px;
+    padding-bottom: 20px;
+  }
 }
 
 .page6-content {
@@ -534,7 +527,7 @@
 .day-number-and-matrix .accum-profit-bar,
 .day-number-and-matrix .accum-waste,
 .day-number-and-matrix .accum-points {
-  display: table-cell !important; 
+  display: table-cell !important;
   vertical-align: middle !important;
 }
 
@@ -570,14 +563,14 @@
 
 .current-price-two {
   margin-right: 5px !important;
-  margin-left:  5px !important;
+  margin-left: 5px !important;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .current-quantity-three {
   margin-right: 5px !important;
-  margin-left:  5px !important;
+  margin-left: 5px !important;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -595,7 +588,7 @@
   padding-bottom: 5px !important;
   height: 475px !important;
   /*margin-left: 15px !important;*/
-} 
+}
 
 
 .current-quantity {
@@ -610,11 +603,11 @@
 /* button*/
 
 .bttn-pill.bttn-default {
-    background: #fff !important;
-    color: #428bca !important;
-    width: 70% !important;
-    margin: 0 auto !important;
-    display: block !important;
+  background: #fff !important;
+  color: #428bca !important;
+  width: 70% !important;
+  margin: 0 auto !important;
+  display: block !important;
 }
 
 .notification-btn {
@@ -693,11 +686,10 @@
   position: relative !important;
 }
 
-.shiny-html-output.quantityimg.shiny-bound-output, 
+.shiny-html-output.quantityimg.shiny-bound-output,
 .shiny-html-output.priceimg.shiny-bound-output,
 .shiny-html-output.currentpriceimg.shiny-bound-output,
-.shiny-html-output.currentquantityimg.shiny-bound-output
-{
+.shiny-html-output.currentquantityimg.shiny-bound-output {
   margin: 0 !important;
   position: absolute !important;
   top: 50% !important;
@@ -715,7 +707,7 @@
   /*border-bottom: 3px solid #ffb0c6 !important;*/
   padding: 6px !important;
   padding-left: 8px !important;
-  border-radius: 15px 15px 0px 0px!important;
+  border-radius: 15px 15px 0px 0px !important;
   width: 100% !important;
   background-color: #ffb0c6;
 }
@@ -723,7 +715,7 @@
 /* quantity select */
 .quantity-select {
   margin-right: 5px !important;
-  margin-left:  5px !important;
+  margin-left: 5px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
@@ -731,7 +723,7 @@
 /* price-select  */
 .price-select {
   margin-right: 5px !important;
-  margin-left:  5px !important;
+  margin-left: 5px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
@@ -739,7 +731,7 @@
 /* img div */
 
 /* slider div*/
-.form-group.shiny-input-container{
+.form-group.shiny-input-container {
   margin-top: -17px !important;
 }
 
@@ -778,13 +770,16 @@
 body {
   /*background-color: #dbf6ff;*/
   background-color: #9ADCFF !important;
-  
+
   font-family: 'Yusei Magic', sans-serif;
-  color: black; /* text color */
+  color: black;
+  /* text color */
 }
 
 /* Change header text to imported font */
-h2, h3, h4{
+h2,
+h3,
+h4 {
   font-family: 'Yusei Magic', sans-serif;
 }
 
@@ -797,31 +792,31 @@ h2, h3, h4{
 }
 
 ul.nav {
-   margin: 0px auto;
-   padding: 0px;
-   font-family: "Yusei Magic";
-   color: #272a2e;
- }
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "Yusei Magic";
+  color: #272a2e;
+}
 
- ul.nav li {
-   background-color: #ffb0c6; /*Example background color*/
-   color: black !important;
-   margin: 0px auto;
- }
- 
- .navbar {
-   background-color: #ffb0c6;
-   color: black !important;
- }
- 
- .navbar-header {
-   font-family: "Yusei Magic";
-   color: black !important;
- }
- 
- 
- hr {
-   margin-top: 5px !important;
-   margin-bottom: 5px !important;
- }
- 
+ul.nav li {
+  background-color: #ffb0c6;
+  /*Example background color*/
+  color: black !important;
+  margin: 0px auto;
+}
+
+.navbar {
+  background-color: #ffb0c6;
+  color: black !important;
+}
+
+.navbar-header {
+  font-family: "Yusei Magic";
+  color: black !important;
+}
+
+
+hr {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
