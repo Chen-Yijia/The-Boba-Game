@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*more page*/
+.quitgame-background {
+  height: 910px;
+  width: 100%;
+  background-image: url("bye.jpg");
+  background-size: 100% 100%;
+  padding-top: 480px;
+}
+
+.quitgame-btn {
+  position: absolute;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding: 0px;
+  height: 100px;
+  width: 220px;
+  z-index: 999;
+  /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.quitgame-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+.sweet-alert.quit-alert p{
+  font-family: "Yusei Magic";
+  color: black;
+}
+
+.sweet-alert.restart-alert p{
+  font-family: "Yusei Magic";
+  color: black;
+}
+
+.restart-btn {
+  /*position: absolute;*/
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  /*margin-right: auto;*/
+  border: none;
+  padding: 0px;
+  height: 100px;
+  width: 220px;
+  /*left: 980px;
+  top: 570px;
+  z-index: 999;
+  background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.restart-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*leaderboad*/
+.scoreboard-body {
+  background-color: #FFF89A !important;
+  border-radius: 15px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  height: 320px !important;
+  margin-top: 120px !important;
+  margin-left: 400px !important;
+  margin-right: 400px !important;
+  /*margin-left: 15px !important;*/
+}
+
+.scoreboard-body .well {
+  display: flex !important;
+  justify-content: center !important;
+  height: 320px !important;
+}
+
+#leaderboad {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#leaderboad .table.shiny-table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*log in*/
+
+.logged-in-background {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("loggedin.png");
+  background-size: 100% 100%;
+}
+
+.welcome-player #playername {
+  text-align: center !important;
+  width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 300px !important;
+}
+
+.start-btn-container {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.start-game-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding: 0px;
+  height: 100px;
+  width: 220px;
+  z-index: 999;
+  text-align: center;
+  /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.start-game-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+.login-background {
+  height: 910px;
+  width: 100%;
+  background-image: url("loginbackground.png");
+  background-size: 100% 100%;
+  padding-top: 480px;
+}
+
+.login-btn {
+  position: absolute;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding: 0px;
+  height: 100px;
+  width: 220px;
+  left: 700px;
+  top: 570px;
+  z-index: 999;
+  /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.login-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+.login-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1px;
+    /* background-color: blue; */
+  height: 100px;
+  width: 480px;
+  grid-auto-columns: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register-btn {
+  /*position: absolute;*/
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  /*margin-right: auto;*/
+  border: none;
+  padding: 0px;
+  height: 100px;
+  width: 220px;
+  /*left: 980px;
+  top: 570px;
+  z-index: 999;
+  background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.register-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*deficiency popup*/
+.sweet-alert.deficiency-alert .sa-icon.sa-custom {
+  width: 300px !important;
+}
+
+.deficiency-popup-text {
+  margin-bottom: 15px !important;
+  color: #575757 !important;
+}
+
+.deficiency-divider {
+  margin-bottom: 20px !important;
+}
+
+.ft-control-label {
+  font-weight: 700 !important;
+  font-family: "Helvetica Neue" !important;
+  font-size: 16px !important;
+  margin-top: -17px !important;
+  height: 38px !important;
+  margin-bottom: 15px !important;
+}
+
+#ftuservalue {
+  font-family: "Helvetica Neue" !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+  background-color: #fff !important;
+}
+
+/* map */
+.map-background1 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background1.gif");
+  background-size: 100% 100%;
+}
+
+.map-background2 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background2.gif");
+  background-size: 100% 100%;
+}
+
+.map-background3 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background3.gif");
+  background-size: 100% 100%;
+}
+
+.map-background4 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background4.gif");
+  background-size: 100% 100%;
+}
+
+.map-background5 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background5.gif");
+  background-size: 100% 100%;
+}
+
+.map-background6 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background6.gif");
+  background-size: 100% 100%;
+}
+
+.map-background7 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background7.gif");
+  background-size: 100% 100%;
+}
+
+.map-background8 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background8.gif");
+  background-size: 100% 100%;
+}
+
+.map-background9 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background9.gif");
+  background-size: 100% 100%;
+}
+
+.map-background10 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background10.gif");
+  background-size: 100% 100%;
+}
+
+.map-background11 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background11.gif");
+  background-size: 100% 100%;
+}
+
+.map-background12 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background12.gif");
+  background-size: 100% 100%;
+}
+
+.map-background13 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background13.gif");
+  background-size: 100% 100%;
+}
+
+.map-background14 {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("background14.gif");
+  background-size: 100% 100%;
+}
+
+.map-background-leaderboard {
+  height: 706.080px;
+  width: 100%;
+  background-image: url("leaderboardbackground.gif");
+  background-size: 100% 100%;
+}
+
+.map-start-btn{
+  position: absolute;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0px;
+  height: 59px;
+  width: 125px;
+  left: 350px;
+  top: 710px;
+  z-index: 999;
+  /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.map-continue-btn{
+  position: absolute;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  height: 59px;
+  width: 145px;
+  /*left: 550px;*/
+  top: 710px;
+  z-index: 999;
+  /*background: url("start-btn.png") no-repeat scroll 0 0 transparent;*/
+}
+
+.map-start-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+.map-continue-btn img {
+  height: 100%;
+  width: 100%;
+}
+
+/*help page*/
+.prev-next-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-next-btns #prevBtn{
+  margin-right: 1300px;
+}
+
+.pic-align{
+  display: flex;
+  padding-bottom:20px !important;
+}
+
+.member-names{
+  margin-top:10px !important;
+  margin-bottom:10px !important;
+}
+
+.help-page-element{
+  background-color: #FFF89A !important;
+  border-radius: 0px 0px 15px 15px!important;
+  height: 650px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  text-align: justify
+}
+
+.help-page-content {
+  width: 100% !important;
+  font-size: 20px !important;
+}
+
+.help-page-element-extra{
+  background-color: #FFF89A !important;
+  border-radius: 0px 0px 15px 15px!important;
+  height: 2300px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  text-align: justify
+}
+
+.help-page-element-extra1{
+  background-color: #FFF89A !important;
+  border-radius: 0px 0px 15px 15px!important;
+  height: 1000px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  text-align: justify
+}
+
+.col-sm-6 #checkdemand {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #pricedemand {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #mtmenu {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #ftmenu {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #actionpanel {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #confirmorder {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #deficiency {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #ordersuccess {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #notifications {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 #scorebar {
+  display: flex;
+  justify-content: center;
+}
+
+.align-top-para {
+  margin-top: 40px;
+}
+
+.align-para {
+  margin-top: 90px;
+}
+
+/*
+.shiny-html-output {
+  align-content: center !important;
+  aria-live="polite";
+  padding-top: 30px
+}
+*/
+
+.well.previous-data-plot {
+  height: 240px !important;
+}
+
+.page3-content {
+  .page3-content {
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+}
+
+.page6-content {
+  padding-top: 50px;
+}
+
+/*stats bar*/
+.day-number-and-matrix {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  background-color: #FFF89A !important;
+  margin-top: -7px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 15px !important;
+  height: 45px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: table;
+  width: 100% !important;
+}
+
+.day-number-and-matrix .day,
+.day-number-and-matrix .accum-profit-word,
+.day-number-and-matrix .accum-profit-bar,
+.day-number-and-matrix .accum-waste,
+.day-number-and-matrix .accum-points {
+  display: table-cell !important; 
+  vertical-align: middle !important;
+}
+
+
+.progress-group .progress {
+  width: 300px !important;
+  /*display: flex;*/
+  /*align-items: center*/
+  margin: 10px;
+}
+
+.progress-bar {
+  background-color: #FF8AAE !important;
+}
+
+/*current & action data*/
+
+.row.current-and-next-day {
+  padding-left: 15px !important;
+  padding-right: 45px !important;
+}
+
+
+/*current data*/
+.current-data-body {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.current-data-element-wrap {
+  text-align: center !important;
+}
+
+.current-price-two {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.current-quantity-three {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.current-data-header {
+  margin-bottom: 20px !important;
+}
+
+
+.current-day-display-panel {
+  background-color: #FFF89A !important;
+  border-radius: 15px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  height: 475px !important;
+  /*margin-left: 15px !important;*/
+} 
+
+
+.current-quantity {
+  margin-top: 30px !important;
+}
+
+.extra-line-display {
+  margin-top: 20px !important;
+}
+
+
+/* button*/
+
+.bttn-pill.bttn-default {
+    background: #fff !important;
+    color: #428bca !important;
+    width: 70% !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.notification-btn {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+.extra-line {
+  height: 315px !important;
+}
+
+/*slider*/
+
+.irs-bar.irs-bar--single {
+  border-top: 1px solid #9ADCFF !important;
+  border-bottom: 1px solid #9ADCFF !important;
+  background: #9ADCFF !important;
+}
+
+.irs--shiny .irs-single {
+  background-color: #9ADCFF !important;
+}
+
+.irs--shiny .irs-handle {
+  background-color: #FF8AAE !important;
+}
+
+/*notification*/
+
+.col-md-10 {
+  height: 268px !important;
+  width: 100% !important;
+}
+
+.card-counter {
+  /*background-color: #9ADCFF !important;*/
+  background-color: #dbf6ff !important;
+  height: 100% !important;
+}
+
+.card-counter.info {
+  /*background-color: #9ADCFF !important;*/
+  background-color: #dbf6ff !important;
+  height: 100% !important;
+  color: black !important;
+}
+
+.count-name {
+  opacity: 1 !important;
+  padding-left: 35px !important;
+  padding-top: 35px !important;
+}
+
+
+.shiny-plot-output {
+  height: 230px !important;
+}
+
+
+
+.row.plot-and-notification {
+  margin-top: 5px !important;
+}
+
+/*
+
+.row.current-and-next-day {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+} */
+
+
+/*change img positioning*/
+.img-container {
+  height: 62px !important;
+  position: relative !important;
+}
+
+.shiny-html-output.quantityimg.shiny-bound-output, 
+.shiny-html-output.priceimg.shiny-bound-output,
+.shiny-html-output.currentpriceimg.shiny-bound-output,
+.shiny-html-output.currentquantityimg.shiny-bound-output
+{
+  margin: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+
+
+
+/* panel header */
+
+.panel-header {
+  /*border-bottom: 3px solid #ffb0c6 !important;*/
+  padding: 6px !important;
+  padding-left: 8px !important;
+  border-radius: 15px 15px 0px 0px!important;
+  width: 100% !important;
+  background-color: #ffb0c6;
+}
+
+/* quantity select */
+.quantity-select {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+/* price-select  */
+.price-select {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+/* img div */
+
+/* slider div*/
+.form-group.shiny-input-container{
+  margin-top: -17px !important;
+}
+
+.well {
+  background-color: #FFF89A !important;
+  padding: 8px 0px 0px;
+  border-width: 0px !important;
+  box-shadow: none;
+  margin-bottom: 0px !important;
+}
+
+
+/*edit the action panel*/
+
+.action-panel-body {
+  background-color: #FFF89A !important;
+  border-radius: 15px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  height: 475px !important;
+  /*margin-left: 15px !important;*/
+}
+
+.col-sm-6.milktea-price-plot {
+  padding: 0px !important;
+}
+
+.col-sm-6.fruitstea-price-plot {
+  padding: 0px !important;
+}
+
+
+/*html formatting*/
+
+body {
+  /*background-color: #dbf6ff;*/
+  background-color: #9ADCFF !important;
+  
+  font-family: 'Yusei Magic', sans-serif;
+  color: black; /* text color */
+}
+
+/* Change header text to imported font */
+h2, h3, h4{
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.dropdown-menu li {
+  background-color: white !important;
+}
+
+.navbar-default .navbar-nav>.active>a[data-value="simulator"] {
+  background-color: transparent;
+}
+
+ul.nav {
+   margin: 0px auto;
+   padding: 0px;
+   font-family: "Yusei Magic";
+   color: #272a2e;
+ }
+
+ ul.nav li {
+   background-color: #ffb0c6; /*Example background color*/
+   color: black !important;
+   margin: 0px auto;
+ }
+ 
+ .navbar {
+   background-color: #ffb0c6;
+   color: black !important;
+ }
+ 
+ .navbar-header {
+   font-family: "Yusei Magic";
+   color: black !important;
+ }
+ 
+ 
+ hr {
+   margin-top: 5px !important;
+   margin-bottom: 5px !important;
+ }
+ 
